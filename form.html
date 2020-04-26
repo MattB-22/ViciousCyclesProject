@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="frmstyles.css">
+</head>
+<body>
+    <img src="images/Vicious-Cycle-Logo.png" width= "450" height= "50" alt="The logo for the vicious cycles company" class="center">
+    <h1>Sign Up</h1>
+    <form>
+        <label for="fName">First Name:</label>
+        <input type="text" name="fName" id="fName"><br>
+        <label for="lName">Last Name:</label>
+        <input type="text" name="lName" id="lName"><br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" name="birthday" id="birthday" min="1900-01-01" max="2020-12-31"><br>
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email"><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" id="phone"><br>
+        <label for="continent">Continent:</label>
+        <select name="continent" id="continent">
+            <option value="northAmerica">North America</option>
+            <option value="southAmerica">South America</option>
+            <option value="europe">Europe</option>
+            <option value="asia">Asia</option>
+            <option value="africa">Africa</option>
+            <option value="australia">Australia</option>
+        </select><br>
+        <input type="radio" name="gender" value="male" id="male"><label for="male">Male</label><br>
+        <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label><br>
+        <input type="checkbox" name="bike" value="bicycle" id="bicycle"><label for="bicycle">Bicycle</label><br>
+        <input type="checkbox" name="bike" value="dirtBike" id="dirtBike"><label for="dirtBike">Dirt-Bike</label><br>
+        <input type="checkbox" name="bike" value="motorcycle" id="motorcycle"><label for="motorcycle">Motorcycle</label><br>
+        <label for="concerns">Concerns/Questions: </label>
+        <textarea id="concerns" name="concerns"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+    <p><a href="index.html">Home Page</a></p>
+</body>
+</html>
